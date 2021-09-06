@@ -10,7 +10,7 @@ Trabajo desarrollado en Python que proporciona una librería de distintas operac
 6. Multiplicación de un escalar por una matriz compleja.
 7. Transpuesta de una matriz/vector.
 8. Conjugada de una matriz/vector.
-9. Adjunta (daga) de una matriz/vector.
+9. Adjunta de una matriz/vector.
 10. Producto de dos matrices (de tamaños compatibles).
 11. Función para calcular la "acción" de una matriz sobre un vector.
 12. Producto interno de dos vectores.
@@ -22,22 +22,15 @@ Trabajo desarrollado en Python que proporciona una librería de distintas operac
 ## Comenzando 
 
 ### Pre-requisitos
-
-Python 3.7.7
+Python 3.9.5
 
 ### Instalación
-
-Descargue Python 3.7.7 de un sitio oficial y luego copie el archivo llamado *complexvectors.py* en donde quiera utilizar la librería.
+Descargue Python 3.9.5 de un sitio oficial y luego copie el archivo llamado Complex_Numbers.py en donde quiera utilizar la librería.
 
  ## Ejemplos
 
-Estos son ejemplos de como utilizar todas las funciones implementadas. Recuerde que si importaron complexvectors deben utilizar complexvectors. antes del nombre de cada función, este nombre puede cambiar si lo importaron y le cambiaron el nombre de la siguiente manera: 
+Estos son ejemplos de como utilizar todas las funciones implementadas. 
 
-```python
-import complexvectors as cc
-```
-
-En este caso seria cc. y la función.
 
 ```python
 sum_vect([9 + 7j, 11 + 0j, 14 - 18j], [6 + 3j, 3 + 1j, 10 - 8j])
@@ -57,21 +50,14 @@ distancia_vecotres([(3, 8), (5, -2), (8, -10)], [(8, 9), (3, -7), (6, 14)])
 hermitian([[(3 + 0j), (2 - 1j), (-3j)], [(2 + 1j), (0 + 0j), (1 - 1j)], [(0 + 3j), (1 + 1j), (0 + 0j)]])
 ```
 
-
-
 ## Ejecutando las pruebas 
 
 Para ejecutar las pruebas abra el archivo *unitest.py* y ejecútelo por consola o IDE.
 
-### Analice las pruebas end-to-end
-
-Esta prueba unittest nos permite verificar que la librería este correcta comparando los resultados de esta con valores resultados de las operaciones de vectores complejos.
-
 ## Construido con 
 
 - [PyCharm]([PyCharm: el IDE de Python para desarrolladores profesionales, por JetBrains](https://www.jetbrains.com/es-es/pycharm/)) - IDE utilizado para el desarrollo de la librería y el test.
-- [Python 3.7.7]([Welcome to Python.org](https://www.python.org/)) - Lenguaje de la librería.
 
-## Autores 
+## Autor 
 
-- **Luis Felipe Giraldo** -  [Larfg]([Larfg (github.com)](https://github.com/Larfg))
+Juan David García Pulido ([JJDDGGPP (github.com)](https://github.com/JJDDGGPP))
